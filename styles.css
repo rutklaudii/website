@@ -1,0 +1,389 @@
+body {
+    font-family: "Montserrat";
+  }
+  
+  .menu-item {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .menu-link {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .header-heading {
+    font-size: 64px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    font-family: "VinaSans";
+    font-weight: bold;
+    color:#ffffff
+    
+  }
+  
+  .header-text {
+    font-size: 38px;
+    text-align: center;
+    max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+    color: #ffffff
+  }
+  
+  .header-link {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 200px;
+  }
+  
+  .header {
+    background: url(wallpaper.jpg);
+    padding-top: 80px;
+    padding-bottom: 200px;
+  }
+  
+  .about-heading {
+    font-size: 40px;
+    font-family: "VinaSans";
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .about-text {
+    font-size: 24px;
+  }
+  
+  .hobby-section {
+    background: #7460aa;
+  }
+  
+  .hobby-heading {
+    font-size: 50px;
+    font-family: "VinaSans";
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .hobby-name {
+    color: #fff;
+  }
+  
+  .hobby-text {
+    color: #fff;
+  }
+
+  .footer {
+    background: #7460aa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .images-heading {
+    font-size: 50px;
+    font-family: "VinaSans";
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .contact-heading {
+    font-size: 40px;
+    font-family: "VinaSans";
+  }
+
+
+
+.about-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-image-wrapper {
+  width: 40%;
+}
+
+.about-image {
+  width: 100%;
+}
+
+.about-content {
+  width: 50%;
+}
+
+.about-heading {
+  font-size: 40px;
+  font-family: VinaSans;
+}
+
+.about-text {
+  font-size: 24px;
+  
+}
+
+.hobby-section {
+  background: #7460aa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hobby-heading {
+  font-size: 40px;
+  font-family: "VinaSans";
+  color: #fff;
+  text-align: center;
+}
+
+.hobby-list {
+  margin-top: 100px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobby-item {
+  width: 20%;
+  text-align: center;
+}
+
+.hobby-name {
+  color: #fff;
+  text-align: center;
+}
+
+.hobby-text {
+  color: #fff;
+  text-align: center;
+}
+
+.images-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.images-heading {
+  font-size: 40px;
+  font-family: "VinaSans";
+  text-align: center;
+}
+
+.image-caption {
+  text-align: center;
+}
+
+.images-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.images-container {
+  margin-top: 80px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.image-wrapper {
+  width: 30%;
+  margin: 0;
+}
+
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+.contact-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.contact-heading {
+  font-size: 40px;
+  font-family: "VinaSans";
+  text-align: center;
+}
+
+.form {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-button {
+  background: #7460aa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  color: white;
+}
+
+.footer {
+  background: #7460aa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color:white
+}
+
+.social-links {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-item {
+  display: inline;
+  margin-left: 20px;
+}
+
+
+
+  .quote-section {
+    background: #1B1579;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .quote {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#ffffff
+  }
+  
+  .quote-text {
+    font-size: 26px;
+    font-style: italic;
+    color:#ffffff
+  }
+
+  form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .label {
+    font-size: 20px;
+  }
+  
+  .input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* RWD */
+@media (max-width: 800px) {
+  .about-section {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-image-wrapper {
+    width: 100%;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+  .hobby-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hobby-list {
+    flex-direction: column;
+  }
+
+  .hobby-item {
+    width: 100%;
+  }
+
+  .images-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .images-container {
+    flex-direction: column;
+  }
+
+  .image-wrapper {
+    width: 100%;
+  }
+
+  .quote {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav {
+    display: none;
+  }
+}
